@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My webpage</title>
+	<link rel="stylesheet" type="text/css" href="restoran bezeg.css">
+</head>
+<body>
+
+<section id="qw">
+	
+<div class="hero-container">
+<nav class="hero-top">
+	<button onclick="myFunction()" class="hidden">
+            <span id="open">☰</span>
+            <span id="close">×</span>
+            Menu
+          </button>
+	<ul id="menu-list">
+		<li>Tacos</li>
+		<li>Beers</li>
+		<li>Wines</li>
+		<li>Dessers</li>
+		<li>Reservations</li>
+	</ul>
+</nav>
+<div class="hero-bottom">
+	<div class="left_part"><h1>Terry's Taco Joint</h1>
+		<p>Pretty Good Tacos!</p></div>
+	
+		<div class="right_top"><div class="prize">$1.99</div>
+			<b><p>Tacos</p></b></div>
+		<div class="right_bottom">
+			<div class="prize">$3.99</div>
+			<b><p>Kombucha</p></b>
+		</div>
+	
+</div>
+</div>
+
+<div class="r-container">
+	
+
+	<div class="r">
+	<div class="img">🍺</div>
+	<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor </div>
+	</div>
+
+	<div class="r">
+	<div class="img">🌮</div>
+	<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor </div>
+	</div>
+
+	<div class="r">
+	<div class="img">🍷</div>
+	<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor </div>
+	</div>
+
+	<div class="r">
+	<div class="img">🎵</div>
+	<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor </div>
+	</div>
+
+
+
+
+
+
+</div>
+
+<div class="body3">
+	
+
+<div class="body3-content">
+	
+<div><img src="tacos.png" class="about__mockup"></div>
+<div class="img2_desc"><h3>Featured Taco</h3>
+<p>Slim profile, easy to hold and loaded with cheese.</p>
+<p>This is the one you have been waiting for</p>
+<button>Learn More</button></div>
+
+
+
+
+</div>
+
+
+</div>
+<div class="body4">
+	<div class="qwert"><h2>Instant Grams</h2></div>
+<div class="gallery">
+	
+	<div><img src="1.jpg"></div><div><img src="2.jpg"></div>
+	<div><img src="3.jpg"></div><div><img src="4.jpg"></div>
+	<div><img src="1.jpg"></div><div><img src="2.jpg"></div>
+	<div><img src="3.jpg"></div><div><img src="4.jpg"></div>
+</div>
+
+</div>
+</section>
+
+<script>
+	
+
+
+function myFunction(){
+
+var a = document.getElementById("menu-list");
+
+if(a.style.display === "none"){
+	a.style.display = "grid";
+}
+else{
+	a.style.display = "none";
+}
+
+var x = document.getElementById("open");
+var y = document.getElementById("close");
+
+if(y.style.display === "none"){
+
+				x.style.display = "none";
+				y.style.display = "inline";
+				
+			} else {
+				y.style.display = "none";
+				x.style.display = "inline";
+			}
+
+}
+
+
+
+</script>
+
+</body>
+</html>
